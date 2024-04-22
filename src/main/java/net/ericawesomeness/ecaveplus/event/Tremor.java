@@ -5,8 +5,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public class Tremor {
 
-
-
     @SubscribeEvent
     public static void onExplosion(ExplosionEvent explosion){
         if (explosion.getExplosion().getPosition() ){}

@@ -9,7 +9,7 @@ public class Tremor {
 
     @SubscribeEvent
     public static void onExplosion(ExplosionEvent explosion){
-        for (T player : explosion.getLevel().getEntitiesOfClass(Player.class) ){
+        for (Player player : explosion.getLevel().getEntitiesOfClass(Player.class)){
             if (explosion.getExplosion().getPosition() ){
 
             }
